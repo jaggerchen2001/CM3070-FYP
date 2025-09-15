@@ -20,11 +20,9 @@ outputs/runs/*
 # Track plots and gallery images
 # (no ignore rule for outputs/plots)
 
-# Data (keep folder markers)
-data/content/*
-!data/content/.gitkeep
-data/style/*
-!data/style/.gitkeep
+# Data
+# Track content and style images in repo for reproducibility
+# (Remove ignore rules so files under data/content and data/style are committed)
 
 # OS / Editor
 .DS_Store
