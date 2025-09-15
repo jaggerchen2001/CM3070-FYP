@@ -1,0 +1,290 @@
+Neural Style Transfer (CPU) — Implementation Guide
+1) Environment & Project Skeleton
+
+Implement
+
+Create a clean Python environment (CPU-only).
+
+Turn off GPU usage (e.g., set CUDA_VISIBLE_DEVICES=-1 before running).
+
+Folders:
+
+data/content/
+data/style/
+outputs/runs/
+outputs/plots/
+metrics/
+
+
+One main entry (notebook or script) that drives everything via a small config block (paths, size, steps, α/β/γ, seed).
+
+Verify
+
+Import TF successfully; create empty folders; print your config at start of run.
+
+Pitfalls
+
+Randomness: set a global seed (Python/NumPy/TF) for reproducibility.
+
+Mixed images sizes/aspect: decide to square-resize (simplest) or center-crop first.
+
+2) Image I/O & Preprocessing (Deterministic)
+
+Implement
+
+Loader that:
+
+Reads an image, converts to float32 in [0,1].
+
+Resizes to a square (256, 384, 512).
+
+Adds a batch dimension to make it (1, H, W, 3).
+
+Saver that:
+
+Clips to [0,1], removes batch dim, writes PNG.
+
+Verify
+
+Round-trip: load → save → visually inspect no channel swaps (RGB).
+
+Pitfalls
+
+Accidentally normalizing twice; verify values are in [0,1] before/after.
+
+3) Encoder: VGG-19 Feature Taps (Frozen)
+
+Implement
+
+Load VGG-19 (no classification head, ImageNet weights).
+
+Freeze weights.
+
+Choose layers:
+
+Content: block5_conv2
+
+Style: block1_conv1 … block5_conv1 (five taps)
+
+Build a small model that, for an input image, returns:
+
+A dict of style activations (one per chosen style layer)
+
+A dict of content activations (for content layer)
+
+Verify
+
+One forward pass returns (a) Gram-ready style features, (b) content features with expected shapes.
+
+Print layer names once to confirm no typos.
+
+Pitfalls
+
+Forgetting VGG’s preprocessing (mean-center/scale). Apply it right before the VGG forward.
+
+4) Style Representation: Gram Matrices
+
+Implement
+
+For each style layer activation (1, H, W, C):
+
+Reshape spatial dims into one axis and compute Gram (feature correlations).
+
+Normalize by H*W so scales are comparable across sizes.
+
+Verify
+
+Gram output shape is (1, C, C) per layer.
+
+Re-running on the same image yields identical values (seeded & frozen net).
+
+Pitfalls
+
+Forgetting to divide by spatial size → style loss scale explodes with resolution.
+
+5) Loss Functions (Make them Inspectable)
+
+Implement
+
+Content loss: mean-squared error between current content features and target content features.
+
+Style loss: average MSE across the five Gram matrices (current vs style targets).
+
+Total Variation (TV) loss: standard smoothness prior on the image.
+
+Total loss = α * content + β * style + γ * TV.
+
+Verify
+
+Log each component loss every N steps (e.g., 25): they should be finite and trending down overall.
+
+Try extreme weights (very small/very large β) to see predictable behavior.
+
+Pitfalls
+
+TV weight too high → overly smooth, washed-out results.
+
+Units: don’t compare raw loss magnitudes across different image sizes without noting the scale.
+
+6) Optimization Loop (Adam on the Image)
+
+Implement
+
+Create a trainable image variable, initialized from the content image (most stable).
+
+Each step:
+
+Forward through feature extractor.
+
+Compute losses.
+
+Compute gradients wrt the image variable.
+
+Apply Adam update with a modest learning rate (e.g., 0.02).
+
+Clip image back to [0,1] after the step.
+
+Early stopping
+
+Start checking after a threshold step (e.g., 300 for 512px).
+
+If relative loss improvement < 0.5% since last check → stop.
+
+Verify
+
+Loss decreases over time; the image visually stylizes.
+
+Changing seed produces the same result (if you fixed all seeds).
+
+Pitfalls
+
+Optimizing the network by mistake. Only the image should be trainable.
+
+Too large LR → noisy artifacts and divergence.
+
+7) Checkpointing & Naming (Auditability)
+
+Implement
+
+Save a PNG every N steps (e.g., 50) plus a final image.
+
+Filename encodes settings:
+
+{content}__{style}__{size}px_{steps}s_a{α}_b{β}_tv{γ}_lr{lr}_seed{seed}__step050.png
+
+
+Keep runs under outputs/runs/.
+
+Verify
+
+You can sort files by name and reconstruct exactly how an image was produced.
+
+Pitfalls
+
+Overwriting runs; ensure filenames are deterministic and unique per config.
+
+8) Logging & Metrics (CSV First)
+
+Implement
+
+Append one line per run to metrics/metrics.csv with:
+
+timestamp, content filename, style filename
+
+size, steps, α, β, γ, lr, seed
+
+final total loss, wall-time (s)
+
+SSIM vs content (optional but nice)
+
+final image filename
+
+Verify
+
+After a run, CSV contains a new row with correct parameters and paths.
+
+Pitfalls
+
+Locale issues (commas in decimals) if you open CSV in Excel; stick to . and UTF-8.
+
+9) Sanity Tests (Quick Wins)
+
+Implement/Run
+
+Tiny smoke test: 256px, steps≈50, β=1000 → should stylize without exploding.
+
+Beta sweep at 384px: β ∈ {1000, 2000, 5000} with fixed α, γ.
+
+Resolution check: same pair at 256/384/512 to confirm behavior and runtime scaling.
+
+Verify
+
+Loss goes down; images look increasingly stylized as β increases.
+
+512px is slower; early-stopping trims the tail.
+
+Pitfalls
+
+Comparing SSIM across resolutions; keep size fixed when comparing metrics.
+
+10) Batch Runner (Parameter Grid)
+
+Implement
+
+A simple loop (or notebook cell) that:
+
+Iterates over a set of content×style pairs (e.g., 6×6 for 36 runs).
+
+Iterates β presets (e.g., 1000/2000/5000) at 384px.
+
+Calls your single-run function for each combo.
+
+Add a minimal progress print and try/except to continue on errors.
+
+Verify
+
+metrics.csv grows deterministically; output folders contain complete sets.
+
+Pitfalls
+
+File I/O bottlenecks: avoid recomputing style/content targets inside the inner loop if the pair doesn’t change.
+
+11) Portfolio & Gallery (512px)
+
+Implement
+
+Pick your preferred β (often around 2000 for balance).
+
+Run your best 36 pairs at 512px with early-stop.
+
+Assemble a 6×6 gallery image (titles/captions optional) for the report.
+
+Verify
+
+Gallery is sharp, diverse, and filenames encode settings.
+
+Pitfalls
+
+Memory spikes at 512px; close figures and free variables between runs.
+
+12) Analysis Plots (From CSV)
+
+Implement
+
+Read metrics.csv into a dataframe.
+
+Produce:
+
+SSIM vs β (per pair or averaged) to show plateau behavior.
+
+Runtime vs size and runtime vs β summaries.
+
+Save plots to outputs/plots/.
+
+Verify
+
+Plots match your qualitative observation (e.g., diminishing returns at high β).
+
+Pitfalls
+
+Mixing different content/style pairs without labeling; include legends or facet by pair.

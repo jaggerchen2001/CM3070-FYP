@@ -1,0 +1,154 @@
+timestamp,content,style,size,steps,alpha,beta,gamma,lr,seed,final_total_loss,wall_time_s,ssim_vs_content,final_image
+2025-09-15T01:51:10.345889+00:00,city.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,3.103746e+12,92.618,0.246079,outputs\runs\city__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T01:52:45.891727+00:00,city.jpg,cubism.jpg,256,50,1000,1000,10,0.02,42,3.103776e+12,93.175,0.246062,outputs\runs\city__cubism__256px_50s_a1000_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T01:56:26.020065+00:00,city.jpg,cubism.jpg,256,100,1,1000,10,0.02,42,1.428488e+12,217.278,0.244690,outputs\runs\city__cubism__256px_100s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T02:00:05.224614+00:00,city.jpg,cubism.jpg,256,100,1,2000,10,0.02,42,2.857624e+12,216.228,0.244654,outputs\runs\city__cubism__256px_100s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T02:03:32.293321+00:00,city.jpg,cubism.jpg,256,100,1,5000,10,0.02,42,7.142381e+12,204.430,0.244629,outputs\runs\city__cubism__256px_100s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T02:07:10.594528+00:00,city.jpg,cubism.jpg,256,100,1,1000,10,0.02,42,1.428488e+12,215.283,0.244690,outputs\runs\city__cubism__256px_100s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T02:12:41.471668+00:00,city.jpg,cubism.jpg,384,100,1,1000,10,0.02,42,7.395289e+11,326.425,0.232279,outputs\runs\city__cubism__384px_100s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:33:43.644235+00:00,city.jpg,cubism.jpg,512,100,1,1000,10,0.02,42,4.410629e+11,8330.670,0.233825,outputs\runs\city__cubism__512px_100s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:35:06.345029+00:00,city.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,3.103746e+12,80.303,0.246079,outputs\runs\city__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:36:25.764419+00:00,city.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.206629e+12,79.414,0.246053,outputs\runs\city__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:37:46.953962+00:00,city.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.551139e+13,81.184,0.246090,outputs\runs\city__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:39:09.539829+00:00,city.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,2.746302e+11,80.679,0.373760,outputs\runs\city__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:40:30.291313+00:00,city.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,5.497980e+11,80.746,0.373639,outputs\runs\city__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:41:50.935874+00:00,city.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,1.374923e+12,80.638,0.373747,outputs\runs\city__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:43:13.495172+00:00,city.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,5.344476e+11,80.663,0.343004,outputs\runs\city__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:44:48.209421+00:00,city.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,1.069056e+12,94.708,0.342987,outputs\runs\city__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:46:18.862549+00:00,city.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,2.671535e+12,90.649,0.342972,outputs\runs\city__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:47:42.182719+00:00,city.jpg,monet.jpg,256,50,1,1000,10,0.02,42,5.587573e+10,81.314,0.347962,outputs\runs\city__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:49:09.778239+00:00,city.jpg,monet.jpg,256,50,1,2000,10,0.02,42,1.117518e+11,87.590,0.347961,outputs\runs\city__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:50:45.123093+00:00,city.jpg,monet.jpg,256,50,1,5000,10,0.02,42,2.793487e+11,95.340,0.347946,outputs\runs\city__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:52:31.988051+00:00,city.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,3.247747e+11,104.164,0.343732,outputs\runs\city__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:54:11.444560+00:00,city.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,6.494895e+11,99.450,0.343742,outputs\runs\city__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:55:48.890049+00:00,city.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,1.624445e+12,97.439,0.343732,outputs\runs\city__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:57:27.043259+00:00,city.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,4.651911e+11,96.083,0.413430,outputs\runs\city__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T04:59:05.536611+00:00,city.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,9.306099e+11,98.488,0.413529,outputs\runs\city__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:00:42.650110+00:00,city.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,2.326344e+12,97.106,0.413535,outputs\runs\city__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:02:22.115204+00:00,color street.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,2.106814e+12,97.293,0.508839,outputs\runs\color street__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:03:59.958614+00:00,color street.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,4.213512e+12,97.839,0.508843,outputs\runs\color street__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:05:38.679445+00:00,color street.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.053185e+13,98.716,0.508843,outputs\runs\color street__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:07:19.794558+00:00,color street.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,6.992970e+11,99.305,0.446441,outputs\runs\color street__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:09:00.960304+00:00,color street.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,1.398777e+12,101.160,0.446421,outputs\runs\color street__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:10:39.072698+00:00,color street.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,3.497045e+12,98.107,0.446384,outputs\runs\color street__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:12:19.226381+00:00,color street.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,7.976158e+11,98.026,0.513200,outputs\runs\color street__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:13:58.517396+00:00,color street.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,1.595385e+12,99.284,0.513189,outputs\runs\color street__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:15:18.034944+00:00,color street.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,3.987942e+12,79.512,0.513182,outputs\runs\color street__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:16:39.756052+00:00,color street.jpg,monet.jpg,256,50,1,1000,10,0.02,42,2.203203e+11,79.978,0.432131,outputs\runs\color street__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:18:00.916937+00:00,color street.jpg,monet.jpg,256,50,1,2000,10,0.02,42,4.406209e+11,81.156,0.432137,outputs\runs\color street__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:19:22.791617+00:00,color street.jpg,monet.jpg,256,50,1,5000,10,0.02,42,1.102338e+12,81.870,0.432126,outputs\runs\color street__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:20:44.234827+00:00,color street.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,4.233171e+11,79.569,0.545334,outputs\runs\color street__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:22:03.374573+00:00,color street.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,8.464672e+11,79.135,0.545368,outputs\runs\color street__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:23:23.206997+00:00,color street.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,2.115606e+12,79.827,0.545283,outputs\runs\color street__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:24:43.967818+00:00,color street.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,8.286275e+11,79.044,0.500456,outputs\runs\color street__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:26:02.981329+00:00,color street.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.657266e+12,79.008,0.500426,outputs\runs\color street__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:27:22.270665+00:00,color street.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,4.141601e+12,79.284,0.500431,outputs\runs\color street__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:28:45.860717+00:00,Forest.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,3.013343e+12,81.795,0.450260,outputs\runs\Forest__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:30:07.140078+00:00,Forest.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.026733e+12,81.274,0.450235,outputs\runs\Forest__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:31:27.807556+00:00,Forest.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.506532e+13,80.663,0.450248,outputs\runs\Forest__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:32:49.095784+00:00,Forest.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,5.237587e+11,79.653,0.417131,outputs\runs\Forest__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:34:09.485527+00:00,Forest.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,1.047839e+12,80.385,0.417103,outputs\runs\Forest__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:35:28.330252+00:00,Forest.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,2.616905e+12,78.840,0.417096,outputs\runs\Forest__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:36:50.192067+00:00,Forest.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,1.059546e+12,79.959,0.457949,outputs\runs\Forest__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:38:10.949316+00:00,Forest.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,2.119605e+12,80.752,0.458008,outputs\runs\Forest__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:39:31.549133+00:00,Forest.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,5.298839e+12,80.595,0.457992,outputs\runs\Forest__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:40:53.034301+00:00,Forest.jpg,monet.jpg,256,50,1,1000,10,0.02,42,1.913274e+11,79.728,0.403532,outputs\runs\Forest__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:42:15.708031+00:00,Forest.jpg,monet.jpg,256,50,1,2000,10,0.02,42,3.825863e+11,82.666,0.403585,outputs\runs\Forest__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:43:35.529815+00:00,Forest.jpg,monet.jpg,256,50,1,5000,10,0.02,42,9.565287e+11,79.817,0.403511,outputs\runs\Forest__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:44:56.175777+00:00,Forest.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,5.116743e+11,78.742,0.470885,outputs\runs\Forest__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:46:17.085412+00:00,Forest.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.023164e+12,80.904,0.470851,outputs\runs\Forest__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:47:37.974313+00:00,Forest.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,2.557711e+12,80.883,0.470893,outputs\runs\Forest__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:49:00.918290+00:00,Forest.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,8.455067e+11,81.279,0.463245,outputs\runs\Forest__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:50:21.262104+00:00,Forest.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.691102e+12,80.337,0.463299,outputs\runs\Forest__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:51:41.732222+00:00,Forest.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,4.231840e+12,80.464,0.463330,outputs\runs\Forest__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:53:03.608397+00:00,moutain.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,2.903661e+12,80.252,0.283549,outputs\runs\moutain__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:54:23.983326+00:00,moutain.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,5.807397e+12,80.368,0.283548,outputs\runs\moutain__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:55:44.253331+00:00,moutain.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.451740e+13,80.264,0.283560,outputs\runs\moutain__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:57:05.986862+00:00,moutain.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,1.941715e+11,80.122,0.442043,outputs\runs\moutain__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:58:26.325774+00:00,moutain.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.880305e+11,80.333,0.442081,outputs\runs\moutain__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T05:59:46.345648+00:00,moutain.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,9.701795e+11,80.015,0.442070,outputs\runs\moutain__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:01:07.707666+00:00,moutain.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,4.857771e+11,79.588,0.406928,outputs\runs\moutain__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:02:26.858075+00:00,moutain.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,9.718626e+11,79.145,0.406950,outputs\runs\moutain__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:03:46.710797+00:00,moutain.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,2.428938e+12,79.847,0.406981,outputs\runs\moutain__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:05:09.417893+00:00,moutain.jpg,monet.jpg,256,50,1,1000,10,0.02,42,4.657579e+10,80.930,0.402777,outputs\runs\moutain__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:06:27.602974+00:00,moutain.jpg,monet.jpg,256,50,1,2000,10,0.02,42,9.309278e+10,78.181,0.402770,outputs\runs\moutain__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:07:46.105783+00:00,moutain.jpg,monet.jpg,256,50,1,5000,10,0.02,42,2.327700e+11,78.497,0.402780,outputs\runs\moutain__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:09:09.464566+00:00,moutain.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,3.582885e+11,81.623,0.382913,outputs\runs\moutain__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:10:31.665878+00:00,moutain.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,7.163114e+11,82.195,0.382874,outputs\runs\moutain__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:11:54.129377+00:00,moutain.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,1.790073e+12,82.459,0.382940,outputs\runs\moutain__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:13:14.847710+00:00,moutain.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,3.646077e+11,78.926,0.484185,outputs\runs\moutain__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:14:33.382371+00:00,moutain.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,7.292693e+11,78.530,0.484064,outputs\runs\moutain__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:15:51.461637+00:00,moutain.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,1.823672e+12,78.074,0.484167,outputs\runs\moutain__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:17:13.133308+00:00,night sky.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,3.345625e+12,79.903,0.171978,outputs\runs\night sky__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:18:34.015709+00:00,night sky.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.693517e+12,80.875,0.171997,outputs\runs\night sky__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:19:54.052894+00:00,night sky.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.672706e+13,80.032,0.171948,outputs\runs\night sky__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:21:15.752881+00:00,night sky.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,1.873404e+11,79.927,0.369907,outputs\runs\night sky__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:22:36.025164+00:00,night sky.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.751323e+11,80.267,0.369844,outputs\runs\night sky__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:23:56.477203+00:00,night sky.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,9.349023e+11,80.448,0.369809,outputs\runs\night sky__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:25:17.784050+00:00,night sky.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,1.039143e+12,79.701,0.249439,outputs\runs\night sky__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:26:37.992874+00:00,night sky.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,2.078597e+12,80.203,0.249392,outputs\runs\night sky__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:27:58.026999+00:00,night sky.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,5.192481e+12,80.028,0.249423,outputs\runs\night sky__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:29:19.987695+00:00,night sky.jpg,monet.jpg,256,50,1,1000,10,0.02,42,8.500982e+10,80.264,0.342548,outputs\runs\night sky__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:30:40.276921+00:00,night sky.jpg,monet.jpg,256,50,1,2000,10,0.02,42,1.700951e+11,80.285,0.342500,outputs\runs\night sky__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:32:00.300987+00:00,night sky.jpg,monet.jpg,256,50,1,5000,10,0.02,42,4.255748e+11,80.019,0.342578,outputs\runs\night sky__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:33:22.117452+00:00,night sky.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,5.229502e+11,80.058,0.245342,outputs\runs\night sky__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:34:42.648245+00:00,night sky.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.046120e+12,80.526,0.245380,outputs\runs\night sky__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:36:02.546796+00:00,night sky.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,2.614116e+12,79.894,0.245288,outputs\runs\night sky__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:37:23.276897+00:00,night sky.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,6.909728e+11,79.076,0.354567,outputs\runs\night sky__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:38:42.990220+00:00,night sky.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.380776e+12,79.708,0.354684,outputs\runs\night sky__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:40:02.222667+00:00,night sky.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,3.458685e+12,79.226,0.354381,outputs\runs\night sky__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:41:23.951697+00:00,sunset_city.jpg,cubism.jpg,256,50,1,1000,10,0.02,42,2.424415e+12,80.061,0.184098,outputs\runs\sunset_city__cubism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:42:44.492745+00:00,sunset_city.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,4.849843e+12,80.536,0.184109,outputs\runs\sunset_city__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:44:04.774624+00:00,sunset_city.jpg,cubism.jpg,256,50,1,5000,10,0.02,42,1.212114e+13,80.278,0.184115,outputs\runs\sunset_city__cubism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:45:45.137204+00:00,sunset_city.jpg,Da Vinci.jpg,256,50,1,1000,10,0.02,42,1.615006e+11,98.701,0.380021,outputs\runs\sunset_city__Da Vinci__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:47:30.303767+00:00,sunset_city.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.231686e+11,105.161,0.380068,outputs\runs\sunset_city__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:49:08.828010+00:00,sunset_city.jpg,Da Vinci.jpg,256,50,1,5000,10,0.02,42,8.079233e+11,98.520,0.380188,outputs\runs\sunset_city__Da Vinci__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:50:33.362572+00:00,sunset_city.jpg,hokusai.jpg,256,50,1,1000,10,0.02,42,4.874516e+11,82.338,0.253395,outputs\runs\sunset_city__hokusai__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:51:50.456727+00:00,sunset_city.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,9.750856e+11,77.089,0.253439,outputs\runs\sunset_city__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:53:07.745952+00:00,sunset_city.jpg,hokusai.jpg,256,50,1,5000,10,0.02,42,2.438904e+12,77.284,0.253446,outputs\runs\sunset_city__hokusai__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:54:28.376310+00:00,sunset_city.jpg,monet.jpg,256,50,1,1000,10,0.02,42,1.043409e+11,78.614,0.324358,outputs\runs\sunset_city__monet__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:55:47.597420+00:00,sunset_city.jpg,monet.jpg,256,50,1,2000,10,0.02,42,2.087284e+11,79.216,0.324303,outputs\runs\sunset_city__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:57:08.559418+00:00,sunset_city.jpg,monet.jpg,256,50,1,5000,10,0.02,42,5.218691e+11,80.956,0.324285,outputs\runs\sunset_city__monet__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:58:30.030878+00:00,sunset_city.jpg,Starry_night.jpg,256,50,1,1000,10,0.02,42,5.166515e+11,79.509,0.238846,outputs\runs\sunset_city__Starry_night__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T06:59:54.357132+00:00,sunset_city.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.033329e+12,84.322,0.238835,outputs\runs\sunset_city__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:01:13.923090+00:00,sunset_city.jpg,Starry_night.jpg,256,50,1,5000,10,0.02,42,2.584293e+12,79.561,0.238856,outputs\runs\sunset_city__Starry_night__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:02:34.024429+00:00,sunset_city.jpg,Surrealism.jpg,256,50,1,1000,10,0.02,42,3.307175e+11,78.398,0.383909,outputs\runs\sunset_city__Surrealism__256px_50s_a1_b1000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:03:53.234728+00:00,sunset_city.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,6.610228e+11,79.206,0.383969,outputs\runs\sunset_city__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:05:13.308612+00:00,sunset_city.jpg,Surrealism.jpg,256,50,1,5000,10,0.02,42,1.652953e+12,80.069,0.384088,outputs\runs\sunset_city__Surrealism__256px_50s_a1_b5000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:06:39.125654+00:00,city.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.206629e+12,83.754,0.246053,outputs\runs\city__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:07:58.675083+00:00,city.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,5.497980e+11,77.998,0.373639,outputs\runs\city__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:09:18.697194+00:00,city.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,1.069056e+12,78.417,0.342987,outputs\runs\city__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:10:39.941027+00:00,city.jpg,monet.jpg,256,50,1,2000,10,0.02,42,1.117518e+11,79.595,0.347961,outputs\runs\city__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:12:00.250864+00:00,city.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,6.494895e+11,78.505,0.343742,outputs\runs\city__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:13:23.697571+00:00,city.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,9.306099e+11,81.701,0.413529,outputs\runs\city__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:14:45.904666+00:00,color street.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,4.213512e+12,80.570,0.508843,outputs\runs\color street__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:16:07.762461+00:00,color street.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,1.398777e+12,80.180,0.446421,outputs\runs\color street__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:17:28.503064+00:00,color street.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,1.595385e+12,79.229,0.513189,outputs\runs\color street__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:18:49.529790+00:00,color street.jpg,monet.jpg,256,50,1,2000,10,0.02,42,4.406209e+11,79.466,0.432137,outputs\runs\color street__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:20:11.248561+00:00,color street.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,8.464672e+11,80.068,0.545368,outputs\runs\color street__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:21:32.877786+00:00,color street.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.657266e+12,80.057,0.500426,outputs\runs\color street__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:22:54.644092+00:00,Forest.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.026733e+12,80.231,0.450235,outputs\runs\Forest__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:24:15.361452+00:00,Forest.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,1.047839e+12,79.172,0.417103,outputs\runs\Forest__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:25:36.413227+00:00,Forest.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,2.119605e+12,79.544,0.458008,outputs\runs\Forest__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:26:57.780473+00:00,Forest.jpg,monet.jpg,256,50,1,2000,10,0.02,42,3.825863e+11,79.783,0.403585,outputs\runs\Forest__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:28:24.846385+00:00,Forest.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.023164e+12,85.333,0.470851,outputs\runs\Forest__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:29:43.661309+00:00,Forest.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.691102e+12,77.311,0.463299,outputs\runs\Forest__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:31:03.832909+00:00,moutain.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,5.807397e+12,78.620,0.283548,outputs\runs\moutain__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:32:24.514480+00:00,moutain.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.880305e+11,79.166,0.442081,outputs\runs\moutain__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:33:45.437106+00:00,moutain.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,9.718626e+11,79.405,0.406950,outputs\runs\moutain__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:35:03.963725+00:00,moutain.jpg,monet.jpg,256,50,1,2000,10,0.02,42,9.309278e+10,77.023,0.402770,outputs\runs\moutain__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:36:25.458067+00:00,moutain.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,7.163114e+11,79.842,0.382874,outputs\runs\moutain__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:37:47.379171+00:00,moutain.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,7.292693e+11,80.329,0.484064,outputs\runs\moutain__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:39:07.907872+00:00,night sky.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,6.693517e+12,78.991,0.171997,outputs\runs\night sky__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:40:29.563859+00:00,night sky.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.751323e+11,80.105,0.369844,outputs\runs\night sky__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:42:07.539724+00:00,night sky.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,2.078597e+12,96.422,0.249392,outputs\runs\night sky__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:43:44.829682+00:00,night sky.jpg,monet.jpg,256,50,1,2000,10,0.02,42,1.700951e+11,95.016,0.342500,outputs\runs\night sky__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:45:15.609951+00:00,night sky.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.046120e+12,88.544,0.245380,outputs\runs\night sky__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:46:57.548035+00:00,night sky.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,1.380776e+12,100.119,0.354684,outputs\runs\night sky__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:48:27.001714+00:00,sunset_city.jpg,cubism.jpg,256,50,1,2000,10,0.02,42,4.849843e+12,87.900,0.184109,outputs\runs\sunset_city__cubism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:49:53.485736+00:00,sunset_city.jpg,Da Vinci.jpg,256,50,1,2000,10,0.02,42,3.231686e+11,84.775,0.380068,outputs\runs\sunset_city__Da Vinci__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:51:28.557465+00:00,sunset_city.jpg,hokusai.jpg,256,50,1,2000,10,0.02,42,9.750856e+11,93.174,0.253439,outputs\runs\sunset_city__hokusai__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:52:52.766741+00:00,sunset_city.jpg,monet.jpg,256,50,1,2000,10,0.02,42,2.087284e+11,82.602,0.324303,outputs\runs\sunset_city__monet__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:54:24.555798+00:00,sunset_city.jpg,Starry_night.jpg,256,50,1,2000,10,0.02,42,1.033329e+12,90.138,0.238835,outputs\runs\sunset_city__Starry_night__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T07:55:58.349051+00:00,sunset_city.jpg,Surrealism.jpg,256,50,1,2000,10,0.02,42,6.610228e+11,91.889,0.383969,outputs\runs\sunset_city__Surrealism__256px_50s_a1_b2000_tv10_lr0.02_seed42__final.png
+2025-09-15T08:18:06.954902+00:00,city.jpg,cubism.jpg,256,100,1,2000,10,0.02,42,2.857624e+12,148.028,0.244654,outputs\runs\city__cubism__256px_100s_a1_b2000_tv10_lr0.02_seed42__final.png

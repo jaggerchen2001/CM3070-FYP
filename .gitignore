@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project outputs (keep folders via .gitkeep)
+outputs/runs/*
+!outputs/runs/.gitkeep
+outputs/plots/*
+!outputs/plots/.gitkeep
+
+# Data (keep folder markers)
+data/content/*
+!data/content/.gitkeep
+data/style/*
+!data/style/.gitkeep
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vs/
+.vscode/
