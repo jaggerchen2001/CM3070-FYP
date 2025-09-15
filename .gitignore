@@ -12,11 +12,13 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Project outputs (keep folders via .gitkeep)
+# Project outputs
+# Keep runs ignored by default (large, many files)
 outputs/runs/*
 !outputs/runs/.gitkeep
-outputs/plots/*
-!outputs/plots/.gitkeep
+
+# Track plots and gallery images
+# (no ignore rule for outputs/plots)
 
 # Data (keep folder markers)
 data/content/*
